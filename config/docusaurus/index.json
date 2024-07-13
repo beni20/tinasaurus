@@ -8,6 +8,12 @@
   "url": "https://tinasaurus.vercel.app/",
   "navbar": [
     {
+      "label": "Docusaurus GitHub",
+      "link": "external",
+      "externalLink": "https://github.com/facebook/docusaurus",
+      "position": "right"
+    },
+    {
       "label": "MDX Page",
       "link": "page",
       "docLink": "src/pages/Test-MDX-Page.mdx",
@@ -24,12 +30,6 @@
       "label": "Blog",
       "link": "blog",
       "position": "left"
-    },
-    {
-      "label": "Docusaurus GitHub",
-      "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
     },
     {
       "label": "Tina",
