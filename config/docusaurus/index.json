@@ -1,6 +1,19 @@
 {
   "label": "Settings",
+  "logo": {
+    "alt": "Tina",
+    "src": "/img/tina-icon.svg"
+  },
+  "title": "Tinasaurus",
+  "url": "https://tinasaurus.vercel.app/",
   "navbar": [
+    {
+      "label": "MDX Page",
+      "link": "page",
+      "docLink": "src/pages/Test-MDX-Page.mdx",
+      "pageLink": "src/pages/Test-MDX-Page.mdx",
+      "position": "left"
+    },
     {
       "label": "Docs",
       "link": "doc",
@@ -10,13 +23,6 @@
     {
       "label": "Blog",
       "link": "blog",
-      "position": "left"
-    },
-    {
-      "label": "MDX Page",
-      "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
       "position": "left"
     },
     {
@@ -32,11 +38,6 @@
       "position": "right"
     }
   ],
-  "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
-  },
-  "title": "Tinasaurus",
   "footer": {
     "style": "dark",
     "links": [
@@ -86,6 +87,5 @@
       }
     ],
     "copyright": "My Project, Inc. Built with Docusaurus."
-  },
-  "url": "https://tinasaurus.vercel.app/"
+  }
 }
