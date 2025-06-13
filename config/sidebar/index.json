@@ -3,6 +3,7 @@
   "items": [
     {
       "document": "docs/intro.mdx",
+      "label": "xxx",
       "_template": "doc"
     },
     {
